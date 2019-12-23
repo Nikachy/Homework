@@ -1,0 +1,27 @@
+body {
+		background-color: #a4edbe;
+}
+
+#header {color:red}
+#header_1 {color:green}
+h3.style {color: yellow}
+p.style {background-color: blue}
+p i {
+	color: purple;
+}
+
+p.example, b {
+	font-size: 30px;
+	font-weight: 
+}
+
+p#example:first-letter{
+color:red;
+}
+p#example:first-line{
+color:orange;
+}
+.href{
+	color: brown;
+	text-decoration: none
+}
