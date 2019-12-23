@@ -3,13 +3,10 @@
 <head>
 <title>Ля-ля-ля</title>
 <meta charset="utf-8">
+</head>
 <body>
 <div class="header">
 <h1>Привет, я Ника, Никачу!</h1>
-  <script>
-  var name="Ажнакина Вероника Владимировна";
-  console.log(name);
-</script>
 <hr /> <br />
   <p><big><strong><em><u>Обо мне.</u></em></strong></big></p>
   <div class="img">
@@ -52,6 +49,24 @@
 		<input type="button" value="Ответить" onClick="this.value='Конечно же есть!'">
 	</form>
     </div>
-		
 	</body>
+  <script type="text/javascript">
+    'use strict';
+var name="Вероника";
+    console.log ("Вероника");
+    alert ("Привет," + name);
+
+var likesCats = confirm("Тебе нравятся кошки?")
+if (likesCats) {
+  console.log ("Ты класная кошка!");
+} else {
+  console.log("Что ж, не проблема. Все равно ты молодец");
+}
+
+function changeBackground(color) {
+   document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('red') });
+</script>
 	</html>
